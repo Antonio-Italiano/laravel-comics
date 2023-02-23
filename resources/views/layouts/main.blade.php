@@ -7,8 +7,19 @@
     <title>laravel-comics</title>
     <!-- Styles -->
     @vite('resources/js/app.js')
+
 </head>
 <body>
-    
+    @include('includes.header')
+
+    @include('includes.jumbotron')
+
+    @include('includes.mainup')
+
+    @include('includes.maindown')
+
+    @include('includes.footerup')
+
+    @include('includes.footerdown')
 </body>
 </html>
