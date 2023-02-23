@@ -8,12 +8,13 @@
 }
 
 .header-down {
-    height: 10vh;
+    height: 12vh;
 
     .col-2,
     .col-8 {
+        display: flex;
+        justify-content: center;
         height: 100%;
-        border: 1px dashed red;
 
     }
 
@@ -54,8 +55,8 @@
                 width: fit-content;
                 text-decoration: none;
 
-                &.cliched,
-                &:hover {
+                &:hover,
+                .cliched {
                     border-bottom: 5px solid #1596FA;
                     color: #1596FA;
                 }
