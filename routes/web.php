@@ -21,8 +21,9 @@ Route::get('/characters', function () {
 // for comics
 Route::get('/', function () {
    $comics = config('comics');
+   $links = config('links');
 
-    return view('comics', compact('comics'));
+    return view('comics', compact('comics', 'links'));
 })->name('comics');
 
 // for movies

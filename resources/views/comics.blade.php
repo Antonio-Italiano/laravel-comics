@@ -15,5 +15,7 @@
     @include('includes.jumbotron')
 
     @include('includes.mainup')
+
+    @include('includes.maindown')
 </body>
 </html>
