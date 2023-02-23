@@ -3,7 +3,7 @@
         @foreach ($comics as $comic)
         <div class="col card-custom">
             <figure>
-                <a href="#">
+                <a href="{{ route('comic', $loop->index)}}">
                     <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
                     <h6>{{ $comic['title'] }}</h6>
                 </a>
