@@ -13,5 +13,7 @@
     @include('includes.header')
 
     @include('includes.jumbotron')
+
+    @include('includes.mainup')
 </body>
 </html>
