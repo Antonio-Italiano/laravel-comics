@@ -13,6 +13,52 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// for characters
+Route::get('/characters', function () {
+    return view('characters');
+})->name('characters');
+
+// for comics
 Route::get('/', function () {
-    return view('home');
-});
+    return view('comics');
+})->name('comics');
+
+// for movies
+Route::get('/movies', function () {
+    return view('movies');
+})->name('movies');
+
+// for tv
+Route::get('/tv', function () {
+    return view('tv');
+})->name('tv');
+
+// for games
+Route::get('/games', function () {
+    return view('games');
+})->name('games');
+
+// for collectibles
+Route::get('/collectibles', function () {
+    return view('collectibles');
+})->name('collectibles');
+
+// for videos
+Route::get('/videos', function () {
+    return view('videos');
+})->name('videos');
+
+// for fans
+Route::get('/fans', function () {
+    return view('fans');
+})->name('fans');
+
+// for news
+Route::get('/news', function () {
+    return view('news');
+})->name('news');
+
+// for shop
+Route::get('/shop', function () {
+    return view('shop');
+})->name('shop');
