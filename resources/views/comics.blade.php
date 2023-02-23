@@ -17,5 +17,7 @@
     @include('includes.mainup')
 
     @include('includes.maindown')
+
+    @include('includes.footerup')
 </body>
 </html>
